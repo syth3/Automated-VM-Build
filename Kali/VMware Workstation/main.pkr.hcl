@@ -13,7 +13,7 @@ source "vmware-iso" "kali-latest-iso" {
   ssh_username = "kali"
   ssh_password = "kali"
   ssh_timeout = "1h"
-  shutdown_command = "shutdown -P now"
+  shutdown_command = "echo 'kali' | sudo -S shutdown -P now"
   network = "nat"
   cpus = 1
   cores = 4
