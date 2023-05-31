@@ -15,8 +15,7 @@ source "vmware-iso" "kali-latest-iso" {
   ssh_timeout = "1h"
   shutdown_command = "echo 'kali' | sudo -S shutdown -P now"
   network = "nat"
-  cpus = 1
-  cores = 4
+  cpus = 4
   memory = 8192
   disk_size = 102400
   output_directory = "D:\\Virtual Machines\\Packer Builds\\packer-kali"

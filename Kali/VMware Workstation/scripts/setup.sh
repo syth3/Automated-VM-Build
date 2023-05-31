@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo systemctl start ssh
-sudo systemctl enable ssh
+sudo apt-get update
+sudo apt-get upgrade -y
